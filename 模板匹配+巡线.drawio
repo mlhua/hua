@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T14:36:11.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.0.0" etag="ZFoW4QiOmY2bkegpZqf_" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-10T14:42:44.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.0.0" etag="wS6G3L9WyO2-GQfnQBYp" version="21.4.0" type="github">
   <diagram name="第 1 页" id="IncqmOcyujnmTxHsmf4Z">
     <mxGraphModel dx="1050" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,10 @@
           <mxGeometry x="10" y="10" width="920" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y7_BcGnLHGJJK3MfnhlV-6" value="模板匹配函数:&lt;br&gt;for x in template：&lt;br&gt;对每个模板都进行遍历，然后进行模板匹配，如果匹配上了则返回对应数字和对应的x中心坐标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="110" width="190" height="90" as="geometry" />
+          <mxGeometry x="380" y="110" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="y7_BcGnLHGJJK3MfnhlV-10" value="巡线函数：&lt;br&gt;划定了三个区域识别，在这三个区域中使用找色块函数，若找到则修改数组中对应的变量，然后依靠这个识别状况数组的三个数值来判断识别到的是什么路段，当识别到路口时则停下来运行模板匹配函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="290" width="190" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
