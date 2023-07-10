@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T13:49:39.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.0.0" version="21.4.0" etag="rNhmmR0W5cRgqzY8feki" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-10T13:54:45.299Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.0.0" etag="WdItuCBnXtdAtc9HUy_x" version="21.4.0" type="github">
   <diagram name="第 1 页" id="IncqmOcyujnmTxHsmf4Z">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="y7_BcGnLHGJJK3MfnhlV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y7_BcGnLHGJJK3MfnhlV-1" target="y7_BcGnLHGJJK3MfnhlV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y7_BcGnLHGJJK3MfnhlV-1" value="程序" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y7_BcGnLHGJJK3MfnhlV-2" value="初始化摄像头，添加变量，加载模板，添加roi识别区域" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y7_BcGnLHGJJK3MfnhlV-5" value="目的：小车启动时先是开始运行模板匹配功能，当模板匹配完成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="920" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
