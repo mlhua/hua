@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T14:09:07.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.0.0" etag="8WlmIHYVKZ0LHOLcMja-" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-10T14:36:11.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.0.0" etag="ZFoW4QiOmY2bkegpZqf_" version="21.4.0" type="github">
   <diagram name="第 1 页" id="IncqmOcyujnmTxHsmf4Z">
     <mxGraphModel dx="1050" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,8 +16,8 @@
         <mxCell id="y7_BcGnLHGJJK3MfnhlV-5" value="目的：小车启动时先是开始运行模板匹配功能，当模板匹配完成后，openmv把识别到的数字发送给小车，然后执行巡线功能，当小车识别到路口时，摄像头发送信息给小车，并停止和执行模板匹配函数，设定识别时间，超过时间则小车往前一点点，接着识别，当识别到目标后和初始化识别到的数字进行判断，若是相同数字，则获取这个模板的坐标，然后判断左右转或前进，接着又使用巡线功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="10" width="920" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y7_BcGnLHGJJK3MfnhlV-6" value="模板匹配函数:&lt;br&gt;for x in template：&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="y7_BcGnLHGJJK3MfnhlV-6" value="模板匹配函数:&lt;br&gt;for x in template：&lt;br&gt;对每个模板都进行遍历，然后进行模板匹配，如果匹配上了则返回对应数字和对应的x中心坐标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="110" width="190" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
