@@ -1,26 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T16:16:22.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.0.0" etag="ZT6G32PfljV4rd75RS40" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T09:05:41.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.0.0" etag="l3EUiarfup0Zqx6NDAYf" version="21.6.1" type="github">
   <diagram name="第 1 页" id="IncqmOcyujnmTxHsmf4Z">
     <mxGraphModel dx="1050" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="y7_BcGnLHGJJK3MfnhlV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y7_BcGnLHGJJK3MfnhlV-1" target="y7_BcGnLHGJJK3MfnhlV-2">
+        <mxCell id="y7_BcGnLHGJJK3MfnhlV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y7_BcGnLHGJJK3MfnhlV-1" target="y7_BcGnLHGJJK3MfnhlV-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y7_BcGnLHGJJK3MfnhlV-1" value="程序" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="y7_BcGnLHGJJK3MfnhlV-1" value="程序" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="260" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y7_BcGnLHGJJK3MfnhlV-2" value="初始化摄像头，添加变量，加载模板，添加roi识别区域" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y7_BcGnLHGJJK3MfnhlV-2" value="初始化摄像头，添加变量，加载模板，添加roi识别区域" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="215" y="245" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y7_BcGnLHGJJK3MfnhlV-5" value="目的：小车启动时先是开始运行模板匹配功能，当模板匹配完成后，openmv把识别到的数字发送给小车，然后执行巡线功能，当小车识别到路口时，摄像头发送信息给小车，并停止和执行模板匹配函数，设定识别时间，超过时间则小车往前一点点，接着识别，当识别到目标后和初始化识别到的数字进行判断，若是相同数字，则获取这个模板的坐标，然后判断左右转或前进，接着又使用巡线功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y7_BcGnLHGJJK3MfnhlV-5" value="目的：小车启动时先是开始运行模板匹配功能，当模板匹配完成后，openmv把识别到的数字发送给小车，然后执行巡线功能，当小车识别到路口时，摄像头发送信息给小车，并停止和执行模板匹配函数，设定识别时间，超过时间则小车往前一点点，接着识别，当识别到目标后和初始化识别到的数字进行判断，若是相同数字，则获取这个模板的坐标，然后判断左右转或前进，接着又使用巡线功能" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="10" width="920" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y7_BcGnLHGJJK3MfnhlV-6" value="模板匹配函数:&lt;br&gt;for x in template：&lt;br&gt;对每个模板都进行遍历，然后进行模板匹配，如果匹配上了则返回对应数字和对应的x中心坐标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y7_BcGnLHGJJK3MfnhlV-6" value="模板匹配函数:&lt;br&gt;for x in template：&lt;br&gt;对每个模板都进行遍历，然后进行模板匹配，如果匹配上了则返回对应数字和对应的x中心坐标" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="375" y="120" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="y7_BcGnLHGJJK3MfnhlV-10" value="巡线函数：&lt;br&gt;划定了三个区域识别，在这三个区域中使用找色块函数，若找到则修改数组中对应的变量，然后依靠这个识别状况数组的三个数值来判断识别到的是什么路段，当识别到路口时则停下来运行模板匹配函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y7_BcGnLHGJJK3MfnhlV-10" value="巡线函数：&lt;br&gt;划定了三个区域识别，在这三个区域中使用找色块函数，若找到则修改数组中对应的变量，然后依靠这个识别状况数组的三个数值来判断识别到的是什么路段，当识别到路口时则停下来运行模板匹配函数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="375" y="310" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AhHACx-aml-K8Y58IgDj-3" value="问题：&lt;br&gt;遇到路口就使用模板匹配，模板匹配需要有退出机制，否则会卡死&lt;br&gt;方案1：&lt;br&gt;进入模板匹配函数中后计时，设计一个变量，当他自增到一定值后return出函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="350" width="145" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
