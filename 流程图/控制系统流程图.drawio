@@ -1,14 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T17:02:50.585Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.0.0" etag="qf1FLPnTjMomM1X_Oel9" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T17:23:18.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.0.0" etag="5f1ov2Hra7o2cctAzIFr" version="21.6.3" type="github">
   <diagram name="第 1 页" id="8E7vXNUJTsxUr_ukJdaj">
-    <mxGraphModel dx="1042" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dsSLJj7E-vDmjt7iSdzb-3" value="目标识别" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dsSLJj7E-vDmjt7iSdzb-1" target="dsSLJj7E-vDmjt7iSdzb-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dsSLJj7E-vDmjt7iSdzb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dsSLJj7E-vDmjt7iSdzb-1" target="dsSLJj7E-vDmjt7iSdzb-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="350" />
+              <mxPoint x="840" y="430" />
+              <mxPoint x="445" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dsSLJj7E-vDmjt7iSdzb-18" value="视觉识别" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dsSLJj7E-vDmjt7iSdzb-17">
+          <mxGeometry x="-0.0324" y="-2" relative="1" as="geometry">
+            <mxPoint x="-19" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dsSLJj7E-vDmjt7iSdzb-1" value="openmv摄像头" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=20;spacingRight=20;" vertex="1" parent="1">
-          <mxGeometry x="190" y="250" width="110" height="100" as="geometry" />
+          <mxGeometry x="790" y="250" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dsSLJj7E-vDmjt7iSdzb-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dsSLJj7E-vDmjt7iSdzb-2" target="dsSLJj7E-vDmjt7iSdzb-4">
           <mxGeometry relative="1" as="geometry" />
@@ -21,23 +32,16 @@
         <mxCell id="dsSLJj7E-vDmjt7iSdzb-2" value="STM32F407VGT6&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;最小系统板&lt;/span&gt;" style="whiteSpace=wrap;rounded=1;spacingLeft=20;spacingRight=20;fontSize=12;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="390" y="250" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="dsSLJj7E-vDmjt7iSdzb-4" value="二维电动云台" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;spacingLeft=20;spacingRight=20;" vertex="1" parent="1">
-          <mxGeometry x="590" y="250" width="110" height="100" as="geometry" />
+        <mxCell id="dsSLJj7E-vDmjt7iSdzb-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dsSLJj7E-vDmjt7iSdzb-4" target="dsSLJj7E-vDmjt7iSdzb-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dsSLJj7E-vDmjt7iSdzb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="246" y="350" as="targetPoint" />
-            <mxPoint x="649" y="350" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="649" y="410" />
-              <mxPoint x="246" y="410" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dsSLJj7E-vDmjt7iSdzb-13" value="光斑位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#FFFFFF;" vertex="1" connectable="0" parent="dsSLJj7E-vDmjt7iSdzb-9">
-          <mxGeometry x="0.0078" y="2" relative="1" as="geometry">
+        <mxCell id="dsSLJj7E-vDmjt7iSdzb-16" value="光斑位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dsSLJj7E-vDmjt7iSdzb-14">
+          <mxGeometry x="-0.0424" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dsSLJj7E-vDmjt7iSdzb-4" value="二维电动云台" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;spacingLeft=20;spacingRight=20;" vertex="1" parent="1">
+          <mxGeometry x="590" y="250" width="110" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
