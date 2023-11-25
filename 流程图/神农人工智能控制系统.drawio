@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T08:47:32.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="21.6.6" etag="Fe28MUf6UfYjKXc5TL_D" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T10:41:33.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="z5iUSXOZZZf1DUhGRkUM" version="22.1.4" type="github">
   <diagram name="第 1 页" id="Ca8JibwiIeJ3WIZrLWk-">
-    <mxGraphModel>
+    <mxGraphModel dx="1042" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="x6JHzJ7l4RsxqSKgYVP_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6JHzJ7l4RsxqSKgYVP_-1" target="x6JHzJ7l4RsxqSKgYVP_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6JHzJ7l4RsxqSKgYVP_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6JHzJ7l4RsxqSKgYVP_-1" target="x6JHzJ7l4RsxqSKgYVP_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6JHzJ7l4RsxqSKgYVP_-10" value="USART" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x6JHzJ7l4RsxqSKgYVP_-9">
+          <mxGeometry x="0.025" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x6JHzJ7l4RsxqSKgYVP_-1" value="北斗定位模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6JHzJ7l4RsxqSKgYVP_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x6JHzJ7l4RsxqSKgYVP_-4" target="x6JHzJ7l4RsxqSKgYVP_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6JHzJ7l4RsxqSKgYVP_-14" value="天线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x6JHzJ7l4RsxqSKgYVP_-7">
+          <mxGeometry x="-0.02" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x6JHzJ7l4RsxqSKgYVP_-4" value="北斗卫星" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6JHzJ7l4RsxqSKgYVP_-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6JHzJ7l4RsxqSKgYVP_-8" target="x6JHzJ7l4RsxqSKgYVP_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6JHzJ7l4RsxqSKgYVP_-17" value="USART" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x6JHzJ7l4RsxqSKgYVP_-16">
+          <mxGeometry x="-0.15" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x6JHzJ7l4RsxqSKgYVP_-8" value="STM32F407" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6JHzJ7l4RsxqSKgYVP_-15" value="ESP8266" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
