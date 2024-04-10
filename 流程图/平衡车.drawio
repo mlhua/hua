@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T16:24:54.417Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="PA5mRXNnBj8WhFXfRYFE" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T16:31:21.362Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="syrUIuYNvLJhVlcJicN6" version="24.2.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1282" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,6 +101,15 @@
         </mxCell>
         <mxCell id="3faFdH3WWiOw5at9z-5F-41" value="OLED" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3faFdH3WWiOw5at9z-5F-38">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3faFdH3WWiOw5at9z-5F-42" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;时间安排：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="610" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3faFdH3WWiOw5at9z-5F-55" value="第一天/4/11" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="620" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3faFdH3WWiOw5at9z-5F-56" value="读取MPU6050显示在oled上，对MPU6050的数据进行处理，清楚数据的意义，确定需要控制的数据是哪一个" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3faFdH3WWiOw5at9z-5F-55">
+          <mxGeometry y="30" width="140" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
