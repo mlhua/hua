@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T14:53:07.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="KbzRu2ggW-VRJqQ154c8" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-12T16:39:22.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="lIMEJ1cRhAKBArKDlxxU" version="24.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1282" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,10 +111,10 @@
         <mxCell id="3faFdH3WWiOw5at9z-5F-56" value="读取MPU6050显示在oled上，对MPU6050的数据进行处理，清楚数据的意义，确定需要控制的数据是哪一个" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3faFdH3WWiOw5at9z-5F-55" vertex="1">
           <mxGeometry y="30" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Dtnm1mhPpf7LtZ_eOCIv-0" value="第二天/4/12" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Dtnm1mhPpf7LtZ_eOCIv-0" value="第二天/4/12" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="344" y="620" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Dtnm1mhPpf7LtZ_eOCIv-1" value="成功转换MPU6050数据到oled，驱动电机，在oled上显示编码器值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dtnm1mhPpf7LtZ_eOCIv-0">
+        <mxCell id="Dtnm1mhPpf7LtZ_eOCIv-1" value="成功转换MPU6050数据到oled，驱动电机，在oled上显示编码器值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Dtnm1mhPpf7LtZ_eOCIv-0" vertex="1">
           <mxGeometry y="30" width="140" height="100" as="geometry" />
         </mxCell>
       </root>
