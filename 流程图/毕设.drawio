@@ -55,6 +55,27 @@
         <mxCell id="xzWG090_1QoSRZAbisRV-23" value="SPI协议" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="446" y="295" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-26" target="xzWG090_1QoSRZAbisRV-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-26" value="功能确定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="554" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-29" target="xzWG090_1QoSRZAbisRV-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-29" value="硬件选型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="554" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-31" target="xzWG090_1QoSRZAbisRV-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-31" value="PCB设计和打样" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="446" y="554" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-33" value="测试电路板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="446" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
