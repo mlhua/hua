@@ -58,11 +58,6 @@
         <mxCell id="xzWG090_1QoSRZAbisRV-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-26" target="xzWG090_1QoSRZAbisRV-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xzWG090_1QoSRZAbisRV-43" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xzWG090_1QoSRZAbisRV-30">
-          <mxGeometry x="-0.3258" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="xzWG090_1QoSRZAbisRV-26" value="功能确定&lt;div&gt;（第一周）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="554" width="120" height="60" as="geometry" />
         </mxCell>
