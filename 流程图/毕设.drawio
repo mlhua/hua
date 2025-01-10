@@ -58,47 +58,58 @@
         <mxCell id="xzWG090_1QoSRZAbisRV-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-26" target="xzWG090_1QoSRZAbisRV-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xzWG090_1QoSRZAbisRV-26" value="功能确定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xzWG090_1QoSRZAbisRV-43" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xzWG090_1QoSRZAbisRV-30">
+          <mxGeometry x="-0.3258" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-26" value="功能确定&lt;div&gt;（第一周）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="554" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xzWG090_1QoSRZAbisRV-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-29" target="xzWG090_1QoSRZAbisRV-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xzWG090_1QoSRZAbisRV-29" value="硬件选型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xzWG090_1QoSRZAbisRV-29" value="硬件选型&lt;div&gt;（第二周）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="286" y="554" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xzWG090_1QoSRZAbisRV-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-31" target="xzWG090_1QoSRZAbisRV-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xzWG090_1QoSRZAbisRV-31" value="PCB设计和打样" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xzWG090_1QoSRZAbisRV-31" value="PCB设计和打样&lt;div&gt;（第三周-第五周）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="446" y="554" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xzWG090_1QoSRZAbisRV-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-33" target="xzWG090_1QoSRZAbisRV-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xzWG090_1QoSRZAbisRV-33" value="测试电路板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xzWG090_1QoSRZAbisRV-33" value="焊接和测试电路板&lt;div&gt;（第六周）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="446" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xzWG090_1QoSRZAbisRV-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-35" target="xzWG090_1QoSRZAbisRV-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xzWG090_1QoSRZAbisRV-35" value="软件开发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xzWG090_1QoSRZAbisRV-35" value="软件开发&lt;div&gt;（第七周-第八周）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="286" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xzWG090_1QoSRZAbisRV-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-37" target="xzWG090_1QoSRZAbisRV-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xzWG090_1QoSRZAbisRV-37" value="软件调试" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xzWG090_1QoSRZAbisRV-37" value="软件调试&lt;div&gt;（第九周）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xzWG090_1QoSRZAbisRV-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-39" target="xzWG090_1QoSRZAbisRV-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xzWG090_1QoSRZAbisRV-39" value="solidworks外壳建模" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xzWG090_1QoSRZAbisRV-39" value="solidworks外壳建模&lt;div&gt;（第十周）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xzWG090_1QoSRZAbisRV-41" value="外壳组装，完成设计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xzWG090_1QoSRZAbisRV-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-41" target="xzWG090_1QoSRZAbisRV-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-41" value="外壳组装，完成设计&lt;div&gt;（第十一周）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="286" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-44" value="完成毕业论文&lt;br&gt;&lt;div&gt;（第十二周-第十三周）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="446" y="770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
