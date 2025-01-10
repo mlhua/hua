@@ -73,8 +73,32 @@
         <mxCell id="xzWG090_1QoSRZAbisRV-31" value="PCB设计和打样" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="446" y="554" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-33" target="xzWG090_1QoSRZAbisRV-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xzWG090_1QoSRZAbisRV-33" value="测试电路板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="446" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-35" target="xzWG090_1QoSRZAbisRV-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-35" value="软件开发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-37" target="xzWG090_1QoSRZAbisRV-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-37" value="软件调试" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzWG090_1QoSRZAbisRV-39" target="xzWG090_1QoSRZAbisRV-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-39" value="solidworks外壳建模" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzWG090_1QoSRZAbisRV-41" value="外壳组装，完成设计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
